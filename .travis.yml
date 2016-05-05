@@ -1,0 +1,6 @@
+language: java
+sudo: required
+dist: trusty
+jdk:
+  - oraclejdk8
+script: cd FlagMaker && ant test
